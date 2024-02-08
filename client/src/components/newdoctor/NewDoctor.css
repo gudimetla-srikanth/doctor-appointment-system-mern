@@ -1,0 +1,49 @@
+.newdoctor_details {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bolder;
+}
+
+.newdoctor {
+    margin: 10px;
+}
+
+.newdoctor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.doctorD {
+    margin: 10px 0px;
+    padding: 0px 10px;
+}
+
+.newdoctor_btns {
+    display: flex;
+    justify-content: center;
+}
+
+.newdoctor_btns button {
+    padding: 10px 50px;
+    border: none;
+    margin: 10px 10px;
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+
+.newdoctor_ac {
+    background-color: green;
+    color: white;
+}
+
+.newdoctor_rj {
+    background-color: rgb(253, 23, 23);
+    color: white;
+}
+
+.newdoctor_item {
+    margin: 0px 10px;
+}

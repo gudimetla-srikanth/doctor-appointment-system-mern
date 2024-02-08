@@ -1,0 +1,144 @@
+.home {
+    display: flex;
+    padding: 10px;
+    height: 100vh;
+}
+
+.home_left {
+    flex: 0.3;
+    border: 2px solid gray;
+    border-radius: 10px;
+    height: 100%;
+    position: relative;
+    padding: 10px 0px;
+
+    .home_left_top {
+        text-align: center;
+    }
+
+    .home_left_top h1 {
+        color: blue;
+        font-size: 60px;
+        text-shadow: 4px 1px black;
+    }
+
+    .home_links {
+        margin: 10px 10px;
+    }
+
+    .home_left_middle {
+        padding: 20px 10px;
+        font-size: 20px;
+        cursor: pointer;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        font-weight: bolder;
+        gap: 10px;
+        cursor: pointer;
+    }
+
+    .home_left_bottom {
+        position: absolute;
+        width: 100%;
+        bottom: 10px;
+    }
+
+    .active {
+        background-color: rgb(41, 66, 255);
+        border-radius: 10px;
+    }
+
+    .home_left_bottom {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home_logout {
+        font-size: 30px;
+        font-weight: bolder;
+        background-color: rgb(248, 38, 38);
+        padding: 10px 20px;
+        cursor: pointer;
+    }
+
+    .home_logout:hover {
+        color: white;
+        border-radius: 10px;
+    }
+}
+
+.home_right {
+    flex: 0.7;
+    border: 2px solid gray;
+    border-radius: 10px;
+    height: 100%;
+    position: relative;
+    margin-left: 10px;
+    padding: 10px 10px;
+
+    .home_right_top {
+        font-size: 25px;
+        text-align: right;
+        border-bottom: 2px solid gray;
+        height: 50px;
+        padding-top: 10px;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .home_right_top i,
+    .home_right_top span {
+        cursor: pointer;
+    }
+
+    .bell {
+        position: relative;
+    }
+
+    .bell i {
+        font-size: 30px;
+    }
+
+    .bell span {
+        position: absolute;
+        top: -15px;
+        right: -14px;
+        border-radius: 100%;
+        color: rgb(252, 252, 255);
+        background-color: blue;
+        padding: 5px 10px;
+        font-size: 15px;
+
+    }
+
+    .home_right_bottom {
+        height: 90%;
+        overflow: scroll;
+    }
+
+    .home_right_bottom::-webkit-scrollbar {
+        display: none;
+    }
+
+    .showusers {
+        position: absolute;
+        top: 70px;
+        background-color: antiquewhite;
+        padding: 30px 80px;
+        border-radius: 10px;
+
+    }
+
+    .userP {
+        cursor: pointer;
+        margin: 10px 0px;
+    }
+
+    .userP:hover {
+        color: blue;
+    }
+}

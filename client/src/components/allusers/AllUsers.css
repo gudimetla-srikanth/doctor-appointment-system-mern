@@ -1,0 +1,20 @@
+.allusers_block {
+    margin: 10px;
+    background-color: rgb(240, 227, 227);
+    height: max-content;
+    width: max-content;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.allusers_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: bolder;
+}

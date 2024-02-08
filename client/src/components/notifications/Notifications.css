@@ -1,0 +1,26 @@
+.notifications {
+    margin: 20px 0px;
+}
+
+.notifications button {
+    padding: 10px 10px;
+    margin: 10px;
+    border: none;
+    color: white;
+    background-color: rgba(15, 15, 92, 0.945);
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.noti_block {
+    margin: 10px 10px;
+    font-size: 18px;
+    padding: 10px 0px;
+}
+
+.noti {
+    padding: 10px 0px;
+    margin: 10px 0px;
+    background-color: antiquewhite;
+}

@@ -1,0 +1,26 @@
+.register {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.register_item input {
+    margin: 10px 0px;
+    padding: 20px 5px;
+    width: 40vw;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.register_login span {
+    margin-left: 3px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.register_login span:hover {
+    color: blue;
+}

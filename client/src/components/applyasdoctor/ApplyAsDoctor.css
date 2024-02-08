@@ -1,0 +1,35 @@
+.applyasdoctor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.forms {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.applyas_item input {
+    padding: 15px 5px;
+    width: 30vw;
+    text-decoration: none;
+    outline: none;
+    border: 3px solid gray;
+    color: rgb(21, 13, 239);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.applys_btn {
+    padding: 15px 0px;
+    border: none;
+    background-color: green;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    font-weight: bolder;
+}

@@ -1,0 +1,55 @@
+.booking {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.booking_wrapper {
+    height: 90%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.booking_item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bolder;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.booking_wrapper input {
+    padding: 10px 20px;
+    text-align: center;
+    width: 45vw;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: rgb(205, 210, 214);
+}
+
+.booking_wrapper button {
+    padding: 10px 20px;
+    width: 45vw;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    border: none;
+}
+
+.bc_check {
+    background-color: blue;
+    color: white;
+}
+
+.bc_book {
+    background-color: green;
+    color: white;
+}

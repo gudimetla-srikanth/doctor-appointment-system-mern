@@ -1,0 +1,26 @@
+.applydoctor {
+    display: flex;
+    margin: 10px;
+    height: 100%;
+}
+
+.applydoctors_wrapper {
+    display: flex;
+    gap: 10px;
+    height: max-content;
+}
+
+.applyD {
+    background-color: rgb(254, 237, 237);
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+.apply_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px;
+    width: 200px;
+    border-radius: 10px;
+}

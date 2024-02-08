@@ -1,0 +1,24 @@
+.update {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.update_item input {
+    width: 30vw;
+    padding: 20px 10px;
+    margin: 5px 0px;
+    font-size: 20px;
+    outline: none;
+    border: 2px solid gray;
+    cursor: pointer;
+}
+
+.update_btn {
+    background-color: green;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+}

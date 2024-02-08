@@ -1,0 +1,21 @@
+.profile {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile_wrapper {
+    height: 50%;
+    width: 80%;
+    background-color: rgb(234, 244, 255);
+    padding: 20px 20px;
+}
+
+.profile_item {
+    display: flex;
+    margin: 10px 0px;
+    justify-content: space-between;
+    font-size: 25px;
+    font-weight: bolder;
+}
